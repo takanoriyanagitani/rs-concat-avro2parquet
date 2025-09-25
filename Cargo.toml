@@ -1,0 +1,30 @@
+[package]
+name = "rs-concat-avro2parquet"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.arrow]
+version = "56"
+default-features = false
+features = [
+]
+
+[dependencies.parquet]
+version = "56"
+default-features = false
+features = [
+	"arrow",
+	"base64",
+	"brotli",
+	"flate2-zlib-rs",
+	"lz4",
+	"simdutf8",
+	"snap",
+	"zstd",
+]
+
+[dependencies.datafusion-datasource-avro]
+version = "50"
+default-features = false
+features = [
+]
