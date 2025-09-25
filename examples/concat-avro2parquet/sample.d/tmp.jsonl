@@ -1,0 +1,2 @@
+{"tmsg":"2025 Sep 23 01:53:17.012345Z","severity":"INFO","status":200,"body":"apt update done"}
+{"tmsg":"2025 Sep 22 01:53:17.012345Z","severity":"WARN","status":500,"body":"apt update failure"}

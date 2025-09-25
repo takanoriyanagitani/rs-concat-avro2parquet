@@ -1,0 +1,7 @@
+[package]
+name = "concat-avro2parquet"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.rs-concat-avro2parquet]
+path = "../.."
